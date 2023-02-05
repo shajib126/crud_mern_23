@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import { readProduct } from '../actions/product'
 import './HomePage.css'
-import cogoToast from 'cogo-toast'
+
 const HomePage = () => {
   const dispatch = useDispatch()
   const {loading,products,error} = useSelector((state)=>state.product)

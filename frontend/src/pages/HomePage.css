@@ -4,7 +4,12 @@
     gap: 2rem;
     width: 80%;
     margin:2rem auto;
+    overflow: scroll;
+    height: 75vh;
 
+}
+.homepage::-webkit-scrollbar{
+    display: none;
 }
 .itemCard{
     width: 40%;

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Products from './components/products/Products'
 import CreateProduct from './pages/CreateProduct/CreateProduct'
 import EditPage from './pages/EditPage/EditPage'
+import Footer from './pages/Footer/Footer'
 import HomePage from './pages/HomePage'
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/products' element={<Products/>} />
         <Route path='/products/:id' element={<EditPage/>} />
       </Routes>
+      <Footer/>
     </Router>
   )
 }
