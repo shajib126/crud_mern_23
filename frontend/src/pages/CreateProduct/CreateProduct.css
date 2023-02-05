@@ -1,0 +1,44 @@
+.create{
+    margin-top: 4rem;
+    
+}
+.create form{
+    background-image: linear-gradient(rgb(179, 152, 152),white,white);
+    
+    padding: 1rem;
+    width: 40%;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.create input,label,button{
+    display: grid;
+    width: 100%;
+    margin:1rem auto;
+    
+}
+.create input{
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 0.5s ease;
+    
+}
+.create button{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: blueviolet;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.create button:hover{
+    background-color: wheat;
+    transform: scale(1.02);
+    font-weight: bold;
+}
+.create input:focus{
+    transform: scale(1.01);
+    background: wheat;
+}
