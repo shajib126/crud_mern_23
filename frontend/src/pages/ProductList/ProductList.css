@@ -29,7 +29,7 @@ td{
     /* border: 1px solid black;        */
     border-radius: 1rem; 
     padding: 0;
-    box-shadow: 1px 1px 3px 0px;
+    
 }
 td:nth-child(1){
     box-shadow: none;
@@ -54,11 +54,11 @@ td:nth-child(8){
 }
 td:nth-child(7):hover{
     border-radius: 1rem; 
-    box-shadow: 1px 1px 5px 1px;
+    
 }
 td:nth-child(8):hover{
     border-radius: 1rem; 
-    box-shadow: 1px 1px 5px 1px;
+    
 }
 td img{
     width: 100px;
